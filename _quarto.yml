@@ -1,0 +1,23 @@
+project:
+  type: book
+
+book:
+  title: "Quarto Template"
+  subtitle: "Subtitle"
+  author: "Author Here"
+  date: "9/14/2022"
+  chapters:
+    - index.qmd
+    - Overview.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  # PDF fails because of included .gif file
+  # pdf:
+  #   documentclass: scrreprt
+
+execute: 
+  cache: true
